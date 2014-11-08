@@ -1,0 +1,45 @@
+Page: http://craftingpaperz.com/
+<title>Crafting Paperz</title>
+<meta name="description" content="Handicraft and Style Experts">
+
+====================================================================================================================
+Page: http://craftingpaperz.com/contactus.html
+<title>Contact US :Crafting Paperz</title>
+<meta name="description" content="Contact Us">
+
+====================================================================================================================
+Page: http://craftingpaperz.com/index.html
+<title>Crafting Paperz</title>
+<meta name="description" content="Handicraft and Style Experts">
+
+====================================================================================================================
+Page: http://craftingpaperz.com/media.html
+<title>Media :Crafting Paperz</title>
+<meta name="description" content="Handicraft and Style Experts">
+
+====================================================================================================================
+Page: http://craftingpaperz.com/prod_services_bags.html
+<title>Bags : Crafting Paperz</title>
+<meta name="description" content="Handicraft and Style Experts _ products ans Services --> bags">
+
+====================================================================================================================
+Page: http://craftingpaperz.com/prod_services_baskets.html
+<title>Baskets :Crafting Paperz</title>
+<meta name="description" content="Handicraft and Style Experts _ products ans Services --> Baskets">
+
+====================================================================================================================
+Page: http://craftingpaperz.com/prod_services_boxes.html
+<title>Boxes :Crafting Paperz</title>
+<meta name="description" content="Handicraft and Style Experts _ products ans Services --> PaperBoxess">
+
+====================================================================================================================
+Page: http://craftingpaperz.com/prod_services_cards.html
+<title>Cards :Crafting Paperz</title>
+<meta name="description" content="Handicraft and Style Experts _ products ans Services --> cards">
+
+====================================================================================================================
+Page: http://craftingpaperz.com/prod_services_envelops.html
+<title>Envelops :Crafting Paperz</title>
+<meta name="description" content="Handicraft and Style Experts _ products ans Services --> envelops">
+
+====================================================================================================================
