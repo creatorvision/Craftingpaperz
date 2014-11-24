@@ -3,9 +3,9 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW, ARCHIVE" />
+      <meta NAME="ROBOTS" CONTENT="INDEX, FOLLOW, ARCHIVE" />
       <!-- Website Title & Description for Search Engine purposes -->
-      <title>Crafting Paperz</title>
+      <title>Home| Crafting Paperz</title>
       <meta name="description" content="Handicraft and Style Experts">
       
       <!-- Mobile viewport optimized -->
@@ -13,11 +13,8 @@
       
       <!-- Bootstrap CSS and Js -->
       <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
-      <!--<link href="bootstrap/css/bootstrap.css" rel="stylesheet">-->
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-      <!--<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>-->
-
       
      <!-- Custom CSS -->
       <link rel="stylesheet" href="includes/css/styles.css">
@@ -33,6 +30,7 @@
         #ftlg{padding-left: 0px; padding: 15px;}
         #dev_detail{font-size: 12px;}
         #company_copyrt{font-size: 16px}
+        #overview{font-size: 25px;font-family:'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;}
 
       </style>
 
@@ -60,17 +58,26 @@
               }
           }
       </script>
+      
       <!-- End of scripts-->
 
   </head>
   <body>
 
-    <div class="container" id="main">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+   <div class="container" id="main">
      
 <!-- ************* NAVIGATION BAR **************-->
 
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <!-- add style="background-color: rgba(0.9, 0.8, 0.6, 0.701950)" above if bg-color need to be chang-->
           <div class="container-fluid">
 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -198,81 +205,98 @@
         
         <div class="row" id="bigCallout">
           <div class="col-12" id="about">
-
-            <!--<div class="alert alert-success alert-block fade in" id="successAlert">
-              <button type="button" class="close" data-dismiss="alert">&times;</button>
-              <h4>Success !</h4>
-            </div><end of success alert-->
-
             <div class="well">
               <div class="page-header">
                 <h1>Crafting Paperz </h1>
                 <p class="lead">Crafting paperz is a company to promote Indian handicraft which is one of the most beautiful and unique talent.It is a Paper based Handicraft manufacturing and packaging company.</p><p>It is Founded by Neha Jain an enthusiastic person full of creativity and hardwork.</p>
+                <div class="visible-lg-block">
 
-                <a href="#" onclick="lightbox_open();" class="btn btn-primary btn-lg" role="button">Read More <span class="glyphicon glyphicon glyphicon-bookmark"></span></a>
-                <div id="light"><!--div light for popup-->
-                  <p>
-                    Crafting paperz is an organization that promotes Paper handicraft .We totally belives in R<sup>3</sup>:
-                    <br> 
-                    <div align="center">
-                      <strong>Recycle</strong><br>
-                      <strong>Reuse</strong><br>
-                      <strong>Reduce Wastage</strong><br>
-                    </div>
-                    <div id="copyr">
-                      Copyrigtht &copy Crafting Paperz (INDIA). For more detail you can email us at craftingpaperz@gmail.com.
-                    </div>
+                      <a href="#" onclick="lightbox_open();" class="btn btn-primary btn-lg" role="button">Read More <span class="glyphicon glyphicon glyphicon-bookmark"></span></a>
 
-                  </p>
-                </div><!--end of div light--> 
-                <div id="fade" onClick="lightbox_close();"></div> 
+                      <div id="light"><!--div light for popup-->
+                        <p>
+                          Crafting paperz is an organization that promotes Paper handicraft .We totally belives in R<sup>3</sup>:
+                          <br> 
+                          <div align="center">
+                            <strong>Recycle</strong><br>
+                            <strong>Reuse</strong><br>
+                            <strong>Reduce Wastage</strong><br>
+                          </div>
+                          <div id="copyr">
+                            Copyrigtht &copy Crafting Paperz (INDIA). For more detail you can email us at craftingpaperz@gmail.com.
+                          </div>
+                        </p>
+                      </div><!--end of div light--> 
 
+                      <div id="fade" onClick="lightbox_close();"></div> 
+                </div><!--End of visible-lg class-->
               </div><!--end of page-header-->
             </div><!--end of well-->
           </div><!-- end of col-12-->
        </div><!-- end of row div #bigCallout -->
 
 <!--************** End of Well ****************-->
-        
+<div class="row-col-md-12">
+
+  <div class="col-md-8">
+    <div class="panel panel-primary">
+      <div class="panel-heading" id="overview"><strong>QUICK UPDATES</strong></div>
+      <div class="panel-body">
+        <marquee direction="down">
+          <ul type="circle">
+            <li>  The direction of text will be from bottom to top.</li>
+            <li>  The direction of text will be from bottom to top.</li>
+          </ul>
+        </marquee>
+      </div>
+    </div>  
+  </div>
+
+  <div class="col-md-4 visible-lg">
+    <div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true">
+    </div>
+    <br/><br/><br/>
+  </div>
+</div>
+
 </div><!-- end of main/container div -->
 
-    <footer>      
-            <div class="row-col-md-12">
-              <div class="col-md-8">
-                <p> <div id="company_copyrt">&copy Crafting Paperz -2014 (INDIA).</div>
-                  <div id="dev_detail">
-                    For more detail you can email us at <a href="mailto:craftingpaperz@gmail.com?Subject=Query" target="_top">craftingpaperz@gmail.com </a>. Website Developed By: <a href="http://in.linkedin.com/pub/shivang-gupta/54/750/71"> Shivang Gupta </a>  Mob: +918740075367
-                  </div>
-                </p>
-              </div>
+    <footer>  
 
-              <div class="col-md-4" id="ftlg">
-                <p>Follow Us:<span> </span>
-                  <a href="#"><img src="images/fb.jpeg" alt="FB" height=22 width=22 ></a> 
-                  <a href="#"><img src="images/tweet.jpeg" alt="Twitter" height=22 width=22 ></a> 
-                  <a href="#"><img src="images/lin.jpeg" alt="LinkedIn" height=22 width=22 ></a> 
-                  <a href="#"><img src="images/gplus.jpeg" alt="Google+" height=22 width=22 ></a> 
-                </p>
-              </div>
-            </div>
-            
-            <br/>
-            <div class="visible-lg-block">
-        <a href="#" title="website view counter"></a><br/>
-      <script type="text/javascript" src="http://counter2.statcounterfree.com/private/countertab.js?c=7b65b4ceda6bdc0ee717b205402ec85f"></script>
-        </div>
-
-            <div class="row-col-md-12">
-              <p>  
-                <div class="col-md-7">
+          <div class="row-col-md-12">
+              <p align="center">  
+                  |
                   <a href="index.html">Home </a> |
                   <a href="index.html#about">About Us </a> |
                   <a href="#">Products and Services </a> |
                   <a href="media.html">In Media </a> |
                   <a href="contactus.html">Contact US </a> |
-                </div>
               </p>
-            </div>
+          </div>
+
+          <br/><br/>
+
+          <div class="row-col-md-12"> 
+                <p align="center">Follow Us:<span> </span>
+                  <a href="#"><img src="images/fb.jpeg" alt="FB" height=22 width=22 ></a> 
+                  <a href="#"><img src="images/tweet.jpeg" alt="Twitter" height=22 width=22 ></a> 
+                  <a href="#"><img src="images/lin.jpeg" alt="LinkedIn" height=22 width=22 ></a> 
+                  <a href="#"><img src="images/gplus.jpeg" alt="Google+" height=22 width=22 ></a> 
+                </p>
+          </div>
+
+          <br/>
+
+          <div class="row-col-md-12">
+                <p id="company_copyrt" align="center"> Crafting Paperz &copy 2014 (INDIA).</p>
+                <p id="dev_detail" align="center">
+                    For more detail you can email us at <a href="mailto:craftingpaperz@gmail.com?Subject=Query" target="_top">craftingpaperz@gmail.com </a>. Website Developed By: <a href="http://in.linkedin.com/pub/shivang-gupta/54/750/71"> Shivang Gupta </a>  Mob: +918740075367
+                </p>
+          </div>
+            
+            <br/>
+
+            <div class="visible-lg-block"><a href="#" title="website view counter"></a><br/> <script type="text/javascript" src="http://counter2.statcounterfree.com/private/countertab.js?c=7b65b4ceda6bdc0ee717b205402ec85f"></script></div>
 
     </footer>
 

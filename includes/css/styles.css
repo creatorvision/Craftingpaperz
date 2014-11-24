@@ -21,10 +21,15 @@ Author:  Shivang Gupta
 }
 
 footer {
+
+	border-top: 7px solid #3366FF;
 	background: #000000;
 	color: #eee;
 	font-size: 15px;
-	padding: 50px;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
 }
 
 
@@ -151,7 +156,9 @@ ul.unstyled {
 }
 
 .navbar-brand {
+
 	padding: 13px 15px;
+	font-family:'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
 }
    
    
