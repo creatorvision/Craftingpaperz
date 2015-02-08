@@ -11,6 +11,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       
       <!-- Bootstrap CSS and Js -->
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
       <link href="bootstrap/css/bootstrap-theme.mim.css" rel="stylesheet">
       <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,11 +20,34 @@
       
       <!-- Custom CSS -->
 
+      <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="includes/css/styles.css">
 
       <!-- Custom Javascript -->
 
       <!--Style-->
+      <style>
+
+        .back-to-top {
+        background: url(images/top.jpeg) center no-repeat;
+        margin: 0;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        z-index: 100;
+        display: none;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #ff9000;
+        }
+
+        .back-to-top i {
+          font-size: 60px;
+        }
+
+      </style>
       <style type="text/css">
         .navbar-brand { max-width: 320px; }
         /*.navbar{background:}*/
@@ -130,24 +154,15 @@
 
             <div class="row placeholders">
               <div class="row">
+
+                  
+
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
-                      <img data-src="holder.js/300x300" alt="box101" src="images/boxes/box101.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <img data-src="holder.js/300x300" alt="box102" src="images/boxes/box102.jpg">
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
-                        <h4>Dotted envelops</h4>
-                        <p></p>
-                        <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
-                      </div>
-                    </div>
-                  </div>
-
-                    <div class="col-sm-6 col-sm-4">
-                    <div class="thumbnail">
-                      <img data-src="holder.js/300x300" alt="box102" src="images/boxes/box102.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
-                      <div class="caption">
-                        <h4>Squared-flower envelop</h4>
+                        <h4>Blue Heaven Box</h4>
                         <p></p>
                         <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
                       </div>
@@ -156,15 +171,88 @@
 
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
-                      <img data-src="holder.js/300x300" alt="box103" src="images/boxes/box103.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <img data-src="holder.js/300x300" alt="box103" src="images/boxes/box103.jpg">
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
-                        <h4>Open-flower envelop</h4>
+                        <h4>Heart-Pink Box</h4>
                         <p></p>
                         <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
                       </div>
                     </div>
                   </div>
+
+                  <div class="col-sm-6 col-sm-4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x300" alt="box104" src="images/boxes/box104.jpg">
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
+                      <div class="caption">
+                        <h4>Heart Red-Blue Box</h4>
+                        <p></p>
+                        <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-sm-4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x300" alt="box105" src="images/boxes/box105.jpg">
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
+                      <div class="caption">
+                        <h4>Tringular Quad Box</h4>
+                        <p></p>
+                        <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-sm-4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x300" alt="box106" src="images/boxes/box106.jpg">
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
+                      <div class="caption">
+                        <h4>Dotted Tringluar Box</h4>
+                        <p></p>
+                        <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                   <div class="col-sm-6 col-sm-4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x300" alt="box108" src="images/boxes/box108.jpg">
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
+                      <div class="caption">
+                        <h4>Flower-Bow New-Era Box</h4>
+                        <p></p>
+                        <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-sm-4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x300" alt="box107" src="images/boxes/box107.jpg">
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
+                      <div class="caption">
+                        <h4>Mr. Me Box</h4>
+                        <p></p>
+                        <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6 col-sm-4">
+                    <div class="thumbnail">
+                      <img data-src="holder.js/300x300" alt="box101" src="images/boxes/box101.jpg">
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
+                      <div class="caption">
+                        <h4>Pyramid Heart Box</h4>
+                        <p></p>
+                        <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
+                      </div>
+                    </div>
+                  </div>
+
               </div>
             </div>
 
@@ -182,10 +270,9 @@
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-     <div class="visible-lg-block">
-        <a href="#" title="website view counter"></a><br/>
-        <script type="text/javascript" src="http://counter2.statcounterfree.com/private/countertab.js?c=7b65b4ceda6bdc0ee717b205402ec85f"></script>
-    </div>
+     <a href="#" class="back-to-top" style="display: inline;">
+       <i class="fa fa-arrow-circle-up"></i>
+     </a>
 
     </div><!--End of main container-->
   </body>

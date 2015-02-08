@@ -75,10 +75,11 @@ footer {
 -----------------------------------*/
 #copyr{
 
-	position:absolute;
+	padding: 10px;
+	position:relative;
 	text-align:center;
 	bottom:0px;
-	font-family: "Times New Roman", Georgia, Serif;
+	font-family: 'Pathway Gothic One', sans-serif;
 }
 
 /* --------------------------------------
@@ -158,7 +159,9 @@ ul.unstyled {
 .navbar-brand {
 
 	padding: 13px 15px;
-	font-family:'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
 }
    
    
@@ -285,6 +288,78 @@ ul.unstyled {
   color: #fff;
   background-color: #428bca;
 }
+/*---------------------------------------
+	Product desvription
+ ---------------------------------------*/
+#main_services{
+
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	color:#0084A6;
+
+}
+#main_services h1{
+
+	font-size: 70px;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+ #services{
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 180px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap: wrap;
+  -webkit-display:flex;
+  -webkit-flex-direction:row;
+  -webkit-justify-content:space-between;
+  -webkit-align-items:center;
+  -webkit-flex-wrap: wrap;
+  -moz-display: flex;
+  -moz-flex-direction:row;
+  -moz-justify-content:space-between;
+  -moz-align-items:center;
+  -moz-flex-wrap: wrap;
+
+}
+ #square{ 
+
+  width: 180px; 
+  height: 180px; 
+  background: #0084A6; 
+  font-family: 'Poiret One', cursive;
+  font-size:30px;
+  color:#fff;
+  line-height:180px;
+  text-align:center;
+  
+}
+
+/* unvisited link */
+#square a:link {
+    color: #fff;
+}
+
+/* visited link */
+#square a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+#square a:hover {
+    color: #fff;
+}
+
+/* selected link */
+#square a:active {
+    color: #fff;
+} 
+
 
 /* --------------------------------------
    Placeholders
@@ -337,6 +412,14 @@ ul.unstyled {
 	.thumbnail .price sup {
 		font-size: 10px;
 	}
+	.navbar-brand {
+
+	padding: 13px 10px;
+	font-size: 22px;
+	font-weight: bolder;
+	font-family: 'Poiret One', cursive;
+
+	}
 	
 }
 
@@ -368,7 +451,6 @@ ul.unstyled {
 	.carousel-caption h4 {
 		font-size: 21px;
 	}
-	
 }
 
 /* Large desktop */

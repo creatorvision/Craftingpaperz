@@ -12,17 +12,41 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       
       <!-- Bootstrap CSS and Js -->
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
       <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
       
        <!-- Custom CSS -->
 
+      <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="includes/css/styles.css">
 
       <!-- Custom Javascript -->
 
       <!--Style-->
+      <style>
+
+        .back-to-top {
+        background: url(images/top.jpeg) center no-repeat;
+        margin: 0;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        z-index: 100;
+        display: none;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #ff9000;
+        }
+
+        .back-to-top i {
+          font-size: 60px;
+        }
+
+      </style>
       <style type="text/css">
       
         .navbar-brand { max-width: 320px; }
@@ -138,13 +162,12 @@
     <div class="row" id="r1">
         <div id="map-outer" class="col-md-12">
             <div id="address" class="col-md-4">
-              <h1>Reach Us <a href="http://goo.gl/6u0DYh"><span class="glyphicon glyphicon glyphicon-map-marker"></span></a></h1>
+              <h1>Reach Us <a href="http://goo.gl/YN5CuS"><span class="glyphicon glyphicon glyphicon-map-marker"></span></a></h1>
               <br>
               <address>
               <h3><strong>Crafting Paperz</strong></h3>
                   <br><strong>Mob (1)</strong>: +91-8003118966<br>
-                  <strong>Mob (2)</strong>: +91-8290809581<br>
-                  <strong>Email Id</strong>: craftingpaperz@gmail.com
+                  <strong>Email Id</strong>: <a href="mailto:craftingpaperz@gmail.com?Subject=Query" target="_top">craftingpaperz@gmail.com</a>
              </address>
             </div>
             <div class="visible-lg-block">
@@ -154,7 +177,7 @@
     </div> <!-- /row -->
 
     <div class="row" id="r2">
-      <p><h3> <img src="images/logo.jpeg" alt="Keep-Shopping" height=50 width=50> * CURRENTLY WE TAKE ORDERS VIA PHONE AND EMAIL ONLY. </h3> Sorry for the inconvenience .</p>
+      <p><h3> <img src="images/logo.jpeg" alt="Keep-Shopping" height=50 width=50> WE TAKE ORDERS VIA PHONE AND EMAIL ONLY. </h3></p>
     </div><!-- /row -->
   </div><!--/container -->
 
@@ -163,11 +186,11 @@
     <script>  
   
       function init_map() {
-    var myLocation = new google.maps.LatLng(26.8483455,75.8147871);
+    var myLocation = new google.maps.LatLng(26.8542419,75.8177054);
       
         var mapOptions = {
           center: myLocation,
-          zoom: 14
+          zoom: 10
         };
     
     var marker = new google.maps.Marker({
@@ -194,10 +217,9 @@
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-  <div class="visible-lg-block">
-  <a href="#" title="website view counter"></a><br/>
-<script type="text/javascript" src="http://counter2.statcounterfree.com/private/countertab.js?c=7b65b4ceda6bdc0ee717b205402ec85f"></script>
-  </div>
+    <a href="#" class="back-to-top" style="display: inline;">
+       <i class="fa fa-arrow-circle-up"></i>
+    </a>
 
   </div> <!--end of main container-->
 

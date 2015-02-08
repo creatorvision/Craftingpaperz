@@ -12,22 +12,49 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       
       <!-- Bootstrap CSS and Js -->
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
       <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
       
      <!-- Custom CSS -->
+      <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="includes/css/styles.css">
 
       <!--Custom Javascript --> 
 
       <!--CSS-->
-      <style type="text/css">
 
+      <style>
+
+        .back-to-top {
+        background: url(images/top.jpeg) center no-repeat;
+        margin: 0;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        z-index: 100;
+        display: none;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #ff9000;
+        }
+
+        .back-to-top i {
+          font-size: 60px;
+        }
+
+        .page-header h1{ font-family: 'Poiret One', cursive; font-weight: bolder;}
+        .lead{ text-align: left; font-size: 20px; padding: 20px;}
         .navbar-brand { max-width: 320px; }
+        #cp_abt_popout{padding: 20px;}
+        #cp_popout{text-align: center; color: #DAA520; font-family: 'Poiret One', cursive;}
         #ftlg{padding-left: 0px; padding: 15px;}
         #dev_detail{font-size: 12px;}
-        #company_copyrt{font-size: 16px}
+        #company_copyrt{font-size: 16px;}
         #overview{font-size: 25px;font-family:'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;}
         footer { background: #000000 url(images/bg_footer.jpeg) no-repeat center ;}
 
@@ -45,8 +72,7 @@
             document.getElementById('light').style.display='none';
             document.getElementById('fade').style.display='none';
         }
-      </script>
-      <script type="text/javascript">
+
         window.document.onkeydown = function (e)
           {
               if (!e){
@@ -199,7 +225,6 @@
 <!--************  End of CAROUSEL **************-->
 
 
-
 <!--*********** Beginning of Well **************-->
         
         <div class="row" id="bigCallout">
@@ -207,22 +232,24 @@
             <div class="well">
               <div class="page-header">
                 <h1>Crafting Paperz </h1>
-                <p class="lead">Crafting paperz is a company to promote Indian handicraft which is one of the most beautiful and unique talent.It is a Paper based Handicraft manufacturing and packaging company.</p><p>It is Founded by Neha Jain an enthusiastic person full of creativity and hardwork.</p>
+                <p class="lead">Crafting paperz is a company  dealing  in hand made paper products and packaging solutions in an elegant and alluring manner.The company believes in environmental friendly concepts.
+Crafting paperz is founded by Mrs. Neha Jain fashion designer by profession using her innovations and zeal for latest trend. </p>
                 <div class="visible-lg-block">
 
                       <a href="#" onclick="lightbox_open();" class="btn btn-primary btn-lg" role="button">Read More <span class="glyphicon glyphicon glyphicon-bookmark"></span></a>
 
                       <div id="light"><!--div light for popup-->
                         <p>
-                          Crafting paperz is an organization that promotes Paper handicraft .We totally belives in R<sup>3</sup>:
-                          <br> 
-                          <div align="center">
-                            <strong>Recycle</strong><br>
-                            <strong>Reuse</strong><br>
-                            <strong>Reduce Wastage</strong><br>
+                          <h1 id="cp_popout"><b>CRAFTING PAPERZ</b></h1>
+                          <br/>
+                          <div id="cp_abt_popout">
+                          <p>Crafting paperz is a company  dealing  in hand made paper products and packaging solutions in an elegant and alluring manner.The company believes in environmental friendly concepts.
+Crafting paperz is founded by Mrs. Neha Jain fashion designer by profession using her innovations and zeal for latest trend.<p>
+<p>Crafting paperz is a brain child of Mrs. Neha jain in view to promote eco-friendly products with a tint of fashion and creativity. We deal in handmade paper products and customize pakaging solutions. Our product portfolio covers various shades like vibrant colors , elgance , tradition and neon.<p>
+<p>Neha is Fashion designer by profession with vast experience in designs . With this venture she is trying to convert her hobby and passion for crafts to develop some designer eco-friendly handmade products.<p><br>
                           </div>
                           <div id="copyr">
-                            Copyrigtht &copy Crafting Paperz (INDIA). For more detail you can email us at craftingpaperz@gmail.com.
+                            Copyrigtht &copy Crafting Paperz 2014 (INDIA). For more detail you can email us at craftingpaperz@gmail.com.
                           </div>
                         </p>
                       </div><!--end of div light--> 
@@ -235,16 +262,38 @@
        </div><!-- end of row div #bigCallout -->
 
 <!--************** End of Well ****************-->
+<!--PRODUCTS DESCRIPTION OR QUICK LINKS -->
+<div class="visible-lg-block">
+  <div id="main_services">
+        
+        <h1><u>  Our Products  </u></h1>
+
+        <div id="services">
+          <div id="square"><b><a href="prod_services_bags.html">BAGS</a></b></div>
+          <!--<div id="bwcir"></div>-->
+          <div id="square"><b><a href="prod_services_cards.html">CARDS</a></b></div>
+          <!--<div id="bwcir"></div>-->
+          <div id="square"><b><a href="prod_services_envelops.html">ENVELOPS</a></b></div>
+          <!--<div id="bwcir"></div>-->
+          <div id="square"><b><a href="prod_services_boxes.html">BOXES</a></b></div>
+          <!--<div id="bwcir"></div>-->
+          <div id="square"><b><a href="prod_services_baskets.html">BASKETS<a></b></div>
+          <!--<div id="bwcir"></div>-->
+        </div>
+
+  </div>
+</div>
+<!-- END OF PRODUCT QUICK LINKS -->
+
 <div class="row-col-md-12">
 
   <div class="col-md-8">
     <div class="panel panel-primary">
       <div class="panel-heading" id="overview"><strong>QUICK UPDATES</strong></div>
       <div class="panel-body">
-        <marquee direction="down">
+        <marquee direction="down" behavior="scroll" direction="up" height="200" scrolldelay="100" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
           <ul type="circle">
-            <li>  The direction of text will be from bottom to top.</li>
-            <li>  The direction of text will be from bottom to top.</li>
+            <li> <a href="media.html">Crafting paperz presented it's product portfolio during FHRAI Annual convention 2014 at Marriot Jaipur.</a></li>
           </ul>
         </marquee>
       </div>
@@ -252,8 +301,7 @@
   </div>
 
   <div class="col-md-4 visible-lg">
-    <div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true">
-    </div>
+    <div class="fb-like-box" data-href="https://www.facebook.com/craftingpaperz" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
     <br/><br/><br/>
   </div>
 </div>
@@ -279,10 +327,10 @@
 
           <div class="row-col-md-12"> 
                 <p align="center">Follow Us:<span> </span>
-                  <a href="#"><img src="images/fb.jpeg" alt="FB" height=22 width=22 ></a> 
-                  <a href="#"><img src="images/tweet.jpeg" alt="Twitter" height=22 width=22 ></a> 
-                  <a href="#"><img src="images/lin.jpeg" alt="LinkedIn" height=22 width=22 ></a> 
-                  <a href="#"><img src="images/gplus.jpeg" alt="Google+" height=22 width=22 ></a> 
+                  <a href="https://www.facebook.com/craftingpaperz?ref=br_tf" target="_blank"><img src="images/fbcr.png" alt="FB" height=22 width=22></a> 
+                  <a href="#"><img src="images/twtcr.png" alt="Twitter" height=22 width=22 ></a> 
+                  <a href="#"><img src="images/princr.png" alt="Pinterest" height=22 width=22 ></a> 
+                  <a href="#"><img src="images/gpluscr.png" alt="Google+" height=22 width=22 ></a> 
                 </p>
           </div>
 
@@ -295,8 +343,11 @@
                 </p>
           </div>
             
-            <br/><br/><br/><br/><br/>
-            <div class="visible-lg-block"><a href="#" title="website view counter"></a><br/> <script type="text/javascript" src="http://counter2.statcounterfree.com/private/countertab.js?c=7b65b4ceda6bdc0ee717b205402ec85f"></script></div>
+            <br/><br/><br/><br/>
+
+            <a href="#" class="back-to-top" style="display: inline;">
+            <i class="fa fa-arrow-circle-up"></i>
+            </a>
 
     </footer>
 

@@ -11,6 +11,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       
       <!-- Bootstrap CSS and Js -->
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
       <link href="bootstrap/css/bootstrap-theme.mim.css" rel="stylesheet">
       <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,12 +19,35 @@
       <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
       
        <!-- Custom CSS -->
-
+       
+      <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="includes/css/styles.css">
 
       <!-- Custom Javascript -->
 
       <!--Style-->
+      <style>
+
+        .back-to-top {
+        background: url(images/top.jpeg) center no-repeat;
+        margin: 0;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        z-index: 100;
+        display: none;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #ff9000;
+        }
+
+        .back-to-top i {
+          font-size: 60px;
+        }
+
+      </style>
       <style type="text/css">
         .navbar-brand { max-width: 320px; }
         /*.navbar{background:}*/
@@ -131,7 +155,7 @@
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag101" src="images/bags/bag101.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
                         <h4>Wedding Dress Bag</h4>
                         <p></p>
@@ -145,7 +169,7 @@
                     <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag102" src="images/bags/bag102.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
                         <h4>The Bow Bag</h4>
                         <p></p>
@@ -157,7 +181,7 @@
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag103" src="images/bags/bag103.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
                         <h4>Flower Bag</h4>
                         <p></p>
@@ -173,9 +197,9 @@
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag104" src="images/bags/bag104.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
-                        <h4>Star Bag</h4>
+                        <h4>Twinkling Star Bag</h4>
                         <p></p>
                         <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
                       </div>
@@ -185,7 +209,7 @@
                     <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag105" src="images/bags/bag105.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
                         <h4>New era dress Bag</h4>
                         <p></p>
@@ -197,7 +221,7 @@
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag106" src="images/bags/bag106.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
                         <h4>Tricky Twins</h4>
                         <p></p>
@@ -213,9 +237,9 @@
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag107" src="images/bags/bag107.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
-                        <h4>Wedding Dress Bag</h4>
+                        <h4>Elegent Blue Bag </h4>
                         <p></p>
                         <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
                       </div>
@@ -225,9 +249,9 @@
                     <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag108" src="images/bags/bag108.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
-                        <h4>The Bow Bag</h4>
+                        <h4>Golden Star Bag</h4>
                         <p></p>
                         <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
                       </div>
@@ -237,9 +261,9 @@
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag109" src="images/bags/bag109.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
-                        <h4>Flower Bag</h4>
+                        <h4>Pink Dotted Bag</h4>
                         <p></p>
                         <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
                       </div>
@@ -253,7 +277,7 @@
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag110" src="images/bags/bag110.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
                         <h4>Star Bag</h4>
                         <p></p>
@@ -265,9 +289,9 @@
                     <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag111" src="images/bags/bag111.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
-                        <h4>New era dress Bag</h4>
+                        <h4>Checked Pouch</h4>
                         <p></p>
                         <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
                       </div>
@@ -277,9 +301,9 @@
                   <div class="col-sm-6 col-sm-4">
                     <div class="thumbnail">
                       <img data-src="holder.js/300x300" alt="bag112" src="images/bags/bag112.jpeg">
-                      <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>
+                      <!--<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> <sup><strong>$</strong></sup>5</div>-->
                       <div class="caption">
-                        <h4>Tricky Twins</h4>
+                        <h4>Orange Dotted Bag</h4>
                         <p></p>
                         <p><a href="contactus.html" class="btn btn-primary" role="button">Make an Order</a></p>
                       </div>
@@ -302,10 +326,9 @@
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <div class="visible-lg-block">
-        <a href="#" title="website view counter"></a><br/>
-        <script type="text/javascript" src="http://counter2.statcounterfree.com/private/countertab.js?c=7b65b4ceda6bdc0ee717b205402ec85f"></script>
-    </div>
+    <a href="#" class="back-to-top" style="display: inline;">
+      <i class="fa fa-arrow-circle-up"></i>
+    </a>
 
   </div><!--End of main container-->
 
